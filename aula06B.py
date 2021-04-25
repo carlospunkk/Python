@@ -1,0 +1,5 @@
+n1 = input("digite um valor")
+print("ele é letra ", n1.isalpha())
+print("ele é numerico ", n1.isnumeric())
+print("ele é decimal" , n1.isdecimal())
+print("ele é letra ou numero " , n1.isalnum())
