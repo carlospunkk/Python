@@ -2,7 +2,7 @@
 if nome == ('Gustavo'):
     print('bonito nome bem vindo !!! ')
 print('bem vindo {} , '.format(nome))'''
-import random
+#import random
 
 '''n1 = float(input('digite sua nota'))
 n2 = float(input('digite segunda nota '))
@@ -33,6 +33,26 @@ if velocidade >= 80:
 else:
     print("pode seguir em frente")
 print("dirija com segurança !!!")'''
+
+#desafio30 par / impar
+'''numero = int(input('digite um numero'))
+resultado = numero % 2
+if resultado == 0:
+    print("esse numero é par {}".format(numero))
+else:
+    print("esse numero é impar")'''
+#desafio31
+'''percurso =float(input("digite o percurso da sua viagem"))
+cobrança1 = percurso * 0.50
+cobrança2 = percurso * 0.45
+if percurso <= 200 :
+    print('sua viagem custou {} '.format(cobrança1))
+else:
+    print('vc percorreu uma viagem mais longa {} '.format(cobrança2))'''
+
+
+
+
 
 
 
