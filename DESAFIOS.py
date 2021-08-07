@@ -55,6 +55,34 @@ if tot == 2:
 else:
     print("e por isso ele não é primo")'''
 
+'''faça um programa que leia 5 valores e guarde-os em uma lista 
+no final mostre qual foi o maior e o menor valor digitado e as suas respectivas posiçoes na lista.
+'''
+#DESAFIO78
+'''valores = []
+maior = 0
+menor = 0
+for cont in range(0,5):
+    valores.append(int(input(f"digite um valor  para a posição ${cont}: ")))#adicionar minhas posiçoes nos valores
+    if cont == 0:                   #se o meu cont for igual a zero
+        maior = menor = valores[cont]#tudo aqui vai ser zero
+    else:
+        if valores[cont] > maior:   #se os valores forem maior?
+            maior = valores[cont]   #a variavel (maior) vai receber valores maiores
+        if valores[cont]< menor:    #se os valores forem menor?
+            menor = valores[cont]   #a variavel (menor) vai receber os valores menores
+print("=_ "* 30)
+print(f"voce digitou os valores {valores}")
+print(f"o maior valor digitado foi {maior} nas posiçoes", end='')
+for i , v in enumerate(valores): #indice e valor numerados
+    if v == maior:               #se a variavel v = maior
+        print(f' {i}....', end='')#aparece o meu indice
+print()
+print(f"o menor valor digitado foi {menor} nas posiçoes", end='')
+for i , v in enumerate(valores):
+    if v == menor:
+        print(f" {i}....",end='')
+print()'''
 
 
 

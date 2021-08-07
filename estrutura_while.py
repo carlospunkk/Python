@@ -17,7 +17,7 @@ while r =='s':
     r =str(input("quer continuar s/n")).lower()
 print("fim")'''
 
-n = 1
+'''n = 1
 par = impar = 0
 while n != 0 :
     n = int(input("digite um valor "))
@@ -26,4 +26,5 @@ while n != 0 :
          par = par +1
      else:
         impar = impar +1
-print("voce digitou numeros pares {} e {} numeros impares".format(par,impar))
+print("voce digitou numeros pares {} e {} numeros impares".format(par,impar))''
+'''

@@ -1,18 +1,18 @@
 '''n = int (input("digite numero"))
-for cont in range (0 , n):
+for cont in range (0 , n):#o meu cont vai receber de 0 até o numero digitado
     print(cont)'''
 
-'''estrutura for aqui coloco as informações do inicio
-i = int(input("digite inicio "))
+#estrutura for aqui coloco as informações do inicio
+'''i = int(input("digite inicio "))
 f = int(input("fim"))
 p = int(input("passo"))
 for cont in range (i , f+1 , p):
     print(cont)
 print("final")'''
-'''#soma dos valores
-s = 0
+#soma dos valores
+'''s = 0
 for c in range (0,4):
-    n = int(input("digite o numero"))
+    n = int(input("digite o numero"))#repete essa ação 4 vezes 
     s += n
 print("a soma dos valores {}".format(s))'''
 
